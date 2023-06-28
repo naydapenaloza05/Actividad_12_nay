@@ -1,0 +1,19 @@
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-duration: 1000ms;
+    transition-property: backgraund-color, border-radius;
+    transition: backgraund-color, border-radius 2500ms; /*trannform,opacity*/
+    transition: all 2500ms, ;
+    display: inline-block;
+}
+
+.caja:hover {
+    background-color: yellow;
+    border-radius: 50%;
+    /* se creo circulo la 2 capa que esta en el fon*/
+    transform: scale(.5);
+    opacity: .3;
+
+}
